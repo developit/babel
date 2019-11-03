@@ -1,0 +1,30 @@
+{
+  "name": "@babel/preset-modern",
+  "version": "7.6.3",
+  "description": "A Babel preset for modern, ES Modules-supporting browsers.",
+  "authors": [
+    "Jason Miller <jason@developit.ca>"
+  ],
+  "homepage": "https://babeljs.io/",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/babel/babel/tree/master/packages/babel-preset-modern",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.0.0",
+    "@babel/types": "^7.6.3",
+    "esutils": "^2.0.3"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/helper-fixtures": "^7.6.3",
+    "@babel/helper-plugin-test-runner": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0"
+  }
+}
